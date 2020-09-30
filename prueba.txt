@@ -1,1 +1,60 @@
-gfhfghfghgf
+===================
+1. COMANDOS BÁSICOS
+===================
+Los comandos los realizamos a traves de la consola, del Git Bash
+
+-Para clonar nuestro repositorio/proyecto: 
+	* git clone 'URL'
+
+-Para ver el estado de nuestros ficheros: 
+	* git status
+
+-Para añadir los cambios que hemos realizado en nuestro proyecto a local
+Pueden ser tanto ficheros nuevos como modificaciones:
+	* Para añadir todos los cambios: git add .
+	* Para añadir los cambios de un fichero específico: git add 'nombreFichero'
+
+
+-Para añadir/guardar los cambios de nuestro 'repositorio en local':
+	* git commit
+	* También se le pueden añadir mensajes: git commit -m "crear fichero prueba y modifcación del readme"
+
+
+-Para subir a nuestro repositorio en gitHub/Guardar ya en la nube
+	* git push
+
+
+-Para descargar en local nuestros cambios guardados en la nube/gitHub (Es muy importante realizar esto):
+	* git pull
+
+
+===================
+2. CREAR REPOSITORIO
+===================
+
+1. Nos creamos directamente el repositorio en 'GitHub'
+
+2. En nuestro ordenador abrimos la consola de comandos gitBash
+Y escribirmos: git clone 'direccion de nuestro proyecto'
+
+3. Se nos clonará una copia de lo que tengamos en Git
+
+========================================
+2. GUARDAR CAMBIOS EN EL REPOSITORIO
+========================================
+Cuando hayamos realizado cambios en nuestro proyecto, para guardar cambios
+en nuestro repositorio debemos seguir los siguientes pasos:
+
+1. Añadir cambios/Modificaciones, a través del comando:
+	git add .  - para todos
+	git add 'ficheroNombre' - El fichero que deseemos guardar cambios
+
+
+2. Subir esos cambios a local, esta opción se suele realizar varias veces:
+	* git commit
+	* git commit -m "mensaje con detalles de la modificacion"
+
+3. Finalmente guardar esos cambios en el repositorio:
+	* git push
+
+

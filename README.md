@@ -1,5 +1,4 @@
 # example
+Breve tutorial personal de como funciona git
 
-hjgjghj
-
-sdfsdfds
+Comandos básicos y demás
